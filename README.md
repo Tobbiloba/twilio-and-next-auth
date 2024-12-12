@@ -84,5 +84,17 @@ Once both **email** and **phone** are verified, the user gains access to all pla
 ### 1. **Clone the Repository**
 
 ```bash
+# Step 1: Clone the repository from GitHub
+# This command will copy the entire repository to your local machine.
 git clone https://github.com/your-repository-url.git
+
+# Step 2: Change to the project directory
+# After cloning the repository, navigate into the project folder where all the source code resides.
 cd your-repository-name
+
+# Step 3: Install project dependencies
+# The npm install command will read the package.json file and install all the required packages and dependencies listed there.
+npm install
+
+# After the installation completes, you'll have all the necessary libraries and tools to run the project.
+
