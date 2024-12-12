@@ -86,15 +86,23 @@ Once both **email** and **phone** are verified, the user gains access to all pla
 ```bash
 # Step 1: Clone the repository from GitHub
 # This command will copy the entire repository to your local machine.
-git clone https://github.com/your-repository-url.git
+git clone https://github.com/Tobbiloba/twilio-and-next-auth
 
 # Step 2: Change to the project directory
 # After cloning the repository, navigate into the project folder where all the source code resides.
-cd your-repository-name
+cd twilio-and-next-auth
 
 # Step 3: Install project dependencies
 # The npm install command will read the package.json file and install all the required packages and dependencies listed there.
+# Make sure you have Node.js and npm installed. If not, you can download and install them from https://nodejs.org/.
 npm install
 
-# After the installation completes, you'll have all the necessary libraries and tools to run the project.
+# Step 4: Start the development server
+# Once all the dependencies are installed, run this command to start the local development server.
+# The application will be available at http://localhost:3000 by default.
+npm run dev
+
+# After running this command, the server will be live, and you can view the project in your browser.
+# You can stop the server anytime by pressing `Ctrl + C` in the terminal.
+
 
